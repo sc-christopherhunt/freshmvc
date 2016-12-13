@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc.Presentation
+
+@model  RenderingModel
+@{
+
+}
+<div>
+    Page Item Name: @Model.PageItem.Name
+    <br />
+    Item Name: @Model.Item / @Model.Rendering.Item
+    <br />
+    Parameters: @Model.Rendering.Parameters["URL"]
+</div>

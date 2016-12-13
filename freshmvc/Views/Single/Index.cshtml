@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h2>@Html.Sitecore().Field("Main Title") main title</h2>
+<p>@Html.Sitecore().Field("Main Text") main text</p>
